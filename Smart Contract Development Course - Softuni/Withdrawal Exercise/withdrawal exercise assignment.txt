@@ -1,0 +1,13 @@
+Create a faucet contract, that:
+Is owned
+Can receive plain ETH payments from anyone
+Has method to get its balance
+Has a state variable sendAmount with initial value 1 ETH
+The value of sendAmount can be changed by the owner
+Has method to withdraw sendAmount of money for free, publicly (if available)
+Has method to send sendAmount of money to someone else for free
+The owner can withdraw as much as he wants
+Use assert and require to assure that ETH can be withdrawn 
+Creates an event for every withdrawal
+Can be destroyed by the owner
+Use custom modifiers to check if money can be withdrawn
